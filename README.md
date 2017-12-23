@@ -1,5 +1,5 @@
 
-#Vehicle Detection Project
+# Vehicle Detection Project
 
 The goals / steps of this project are the following:
 
@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 [image13]: ./output_images/label_box.png
 [image14]: ./output_images/pipeline_output_testimgs.png							
 
-[video1]: ./project_video.mp4
+[video1]: Vehicle-Detection-and-Tracking/project_video_out.mp4
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -152,7 +152,7 @@ I run the pipeline on all test images and here is the output:
 
 I tried first to run the pipeline on the test video, the result was not bad but It was noisy and unstable, So I used the information of previous 15 video frames to add more confidence for the current detected objects. so I've done the heatmap on all the previous detections of the object not only on the current detection and a higher threshold also is applied to fit the higher heatmap.
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](https://github.com/iabdelmo/Vehicle-Detection-and-Tracking/blob/master/project_video_out.mp4)
 
 ---
 
